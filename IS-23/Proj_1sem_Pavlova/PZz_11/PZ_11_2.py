@@ -17,4 +17,4 @@ for i in sim:
 file1 = open(file='text.txt', mode='w', encoding='utf-8')
 file1.writelines(text)
 file1.close()
-#исправленный текст выводится в text.txt, а кол-во букв в регистре в консоль
+#в консоль выводится исходный текст и количестов букв в верхнем регситре, а исправленный вариант в text.txt
