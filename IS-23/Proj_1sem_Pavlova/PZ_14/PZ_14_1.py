@@ -2,7 +2,7 @@
 # полученных элементов.
 import re
 
- a = open("price.txt", "r", encoding="UTF-8") #открытие файла на чтение
+a = open("price.txt", "r", encoding="UTF-8") #открытие файла на чтение
 text = a.read()
 price = re.findall(r'\d+\sруб\.\s\d+\sкоп\.', text)
 s = list(set(price))
